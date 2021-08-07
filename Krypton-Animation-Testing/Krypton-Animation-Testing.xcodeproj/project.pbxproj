@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268E95BA26BE589E00BD7736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E95B926BE589E00BD7736 /* AppDelegate.swift */; };
+		268E95BC26BE589E00BD7736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E95BB26BE589E00BD7736 /* SceneDelegate.swift */; };
+		268E95BE26BE589E00BD7736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E95BD26BE589E00BD7736 /* ViewController.swift */; };
+		268E95C126BE589E00BD7736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268E95BF26BE589E00BD7736 /* Main.storyboard */; };
+		268E95C426BE589E00BD7736 /* Krypton_Animation_Testing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 268E95C226BE589E00BD7736 /* Krypton_Animation_Testing.xcdatamodeld */; };
+		268E95C626BE58A000BD7736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268E95C526BE58A000BD7736 /* Assets.xcassets */; };
+		268E95C926BE58A000BD7736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268E95C726BE58A000BD7736 /* LaunchScreen.storyboard */; };
+		268E95D426BE58A000BD7736 /* Krypton_Animation_TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E95D326BE58A000BD7736 /* Krypton_Animation_TestingTests.swift */; };
+		268E95DE26BE58A000BD7736 /* Krypton_Animation_TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E95DD26BE58A000BD7736 /* Krypton_Animation_TestingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		268E95D026BE58A000BD7736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268E95AE26BE589E00BD7736 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268E95B526BE589E00BD7736;
+			remoteInfo = "Krypton-Animation-Testing";
+		};
+		268E95DA26BE58A000BD7736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268E95AE26BE589E00BD7736 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268E95B526BE589E00BD7736;
+			remoteInfo = "Krypton-Animation-Testing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		268E95B626BE589E00BD7736 /* Krypton-Animation-Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Krypton-Animation-Testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268E95B926BE589E00BD7736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		268E95BB26BE589E00BD7736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		268E95BD26BE589E00BD7736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		268E95C026BE589E00BD7736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		268E95C326BE589E00BD7736 /* Krypton_Animation_Testing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Krypton_Animation_Testing.xcdatamodel; sourceTree = "<group>"; };
+		268E95C526BE58A000BD7736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		268E95C826BE58A000BD7736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		268E95CA26BE58A000BD7736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268E95CF26BE58A000BD7736 /* Krypton-Animation-TestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Krypton-Animation-TestingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268E95D326BE58A000BD7736 /* Krypton_Animation_TestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Krypton_Animation_TestingTests.swift; sourceTree = "<group>"; };
+		268E95D926BE58A000BD7736 /* Krypton-Animation-TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Krypton-Animation-TestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268E95DD26BE58A000BD7736 /* Krypton_Animation_TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Krypton_Animation_TestingUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268E95B326BE589E00BD7736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268E95CC26BE58A000BD7736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268E95D626BE58A000BD7736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268E95AD26BE589E00BD7736 = {
+			isa = PBXGroup;
+			children = (
+				268E95B826BE589E00BD7736 /* Krypton-Animation-Testing */,
+				268E95D226BE58A000BD7736 /* Krypton-Animation-TestingTests */,
+				268E95DC26BE58A000BD7736 /* Krypton-Animation-TestingUITests */,
+				268E95B726BE589E00BD7736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		268E95B726BE589E00BD7736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268E95B626BE589E00BD7736 /* Krypton-Animation-Testing.app */,
+				268E95CF26BE58A000BD7736 /* Krypton-Animation-TestingTests.xctest */,
+				268E95D926BE58A000BD7736 /* Krypton-Animation-TestingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		268E95B826BE589E00BD7736 /* Krypton-Animation-Testing */ = {
+			isa = PBXGroup;
+			children = (
+				268E95B926BE589E00BD7736 /* AppDelegate.swift */,
+				268E95BB26BE589E00BD7736 /* SceneDelegate.swift */,
+				268E95BD26BE589E00BD7736 /* ViewController.swift */,
+				268E95BF26BE589E00BD7736 /* Main.storyboard */,
+				268E95C526BE58A000BD7736 /* Assets.xcassets */,
+				268E95C726BE58A000BD7736 /* LaunchScreen.storyboard */,
+				268E95CA26BE58A000BD7736 /* Info.plist */,
+				268E95C226BE589E00BD7736 /* Krypton_Animation_Testing.xcdatamodeld */,
+			);
+			path = "Krypton-Animation-Testing";
+			sourceTree = "<group>";
+		};
+		268E95D226BE58A000BD7736 /* Krypton-Animation-TestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				268E95D326BE58A000BD7736 /* Krypton_Animation_TestingTests.swift */,
+			);
+			path = "Krypton-Animation-TestingTests";
+			sourceTree = "<group>";
+		};
+		268E95DC26BE58A000BD7736 /* Krypton-Animation-TestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				268E95DD26BE58A000BD7736 /* Krypton_Animation_TestingUITests.swift */,
+			);
+			path = "Krypton-Animation-TestingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		268E95B526BE589E00BD7736 /* Krypton-Animation-Testing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268E95E126BE58A000BD7736 /* Build configuration list for PBXNativeTarget "Krypton-Animation-Testing" */;
+			buildPhases = (
+				268E95B226BE589E00BD7736 /* Sources */,
+				268E95B326BE589E00BD7736 /* Frameworks */,
+				268E95B426BE589E00BD7736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Krypton-Animation-Testing";
+			productName = "Krypton-Animation-Testing";
+			productReference = 268E95B626BE589E00BD7736 /* Krypton-Animation-Testing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		268E95CE26BE58A000BD7736 /* Krypton-Animation-TestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268E95E426BE58A000BD7736 /* Build configuration list for PBXNativeTarget "Krypton-Animation-TestingTests" */;
+			buildPhases = (
+				268E95CB26BE58A000BD7736 /* Sources */,
+				268E95CC26BE58A000BD7736 /* Frameworks */,
+				268E95CD26BE58A000BD7736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268E95D126BE58A000BD7736 /* PBXTargetDependency */,
+			);
+			name = "Krypton-Animation-TestingTests";
+			productName = "Krypton-Animation-TestingTests";
+			productReference = 268E95CF26BE58A000BD7736 /* Krypton-Animation-TestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		268E95D826BE58A000BD7736 /* Krypton-Animation-TestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268E95E726BE58A000BD7736 /* Build configuration list for PBXNativeTarget "Krypton-Animation-TestingUITests" */;
+			buildPhases = (
+				268E95D526BE58A000BD7736 /* Sources */,
+				268E95D626BE58A000BD7736 /* Frameworks */,
+				268E95D726BE58A000BD7736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268E95DB26BE58A000BD7736 /* PBXTargetDependency */,
+			);
+			name = "Krypton-Animation-TestingUITests";
+			productName = "Krypton-Animation-TestingUITests";
+			productReference = 268E95D926BE58A000BD7736 /* Krypton-Animation-TestingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		268E95AE26BE589E00BD7736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					268E95B526BE589E00BD7736 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					268E95CE26BE58A000BD7736 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 268E95B526BE589E00BD7736;
+					};
+					268E95D826BE58A000BD7736 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 268E95B526BE589E00BD7736;
+					};
+				};
+			};
+			buildConfigurationList = 268E95B126BE589E00BD7736 /* Build configuration list for PBXProject "Krypton-Animation-Testing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 268E95AD26BE589E00BD7736;
+			productRefGroup = 268E95B726BE589E00BD7736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268E95B526BE589E00BD7736 /* Krypton-Animation-Testing */,
+				268E95CE26BE58A000BD7736 /* Krypton-Animation-TestingTests */,
+				268E95D826BE58A000BD7736 /* Krypton-Animation-TestingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268E95B426BE589E00BD7736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268E95C926BE58A000BD7736 /* LaunchScreen.storyboard in Resources */,
+				268E95C626BE58A000BD7736 /* Assets.xcassets in Resources */,
+				268E95C126BE589E00BD7736 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268E95CD26BE58A000BD7736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268E95D726BE58A000BD7736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268E95B226BE589E00BD7736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268E95BE26BE589E00BD7736 /* ViewController.swift in Sources */,
+				268E95C426BE589E00BD7736 /* Krypton_Animation_Testing.xcdatamodeld in Sources */,
+				268E95BA26BE589E00BD7736 /* AppDelegate.swift in Sources */,
+				268E95BC26BE589E00BD7736 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268E95CB26BE58A000BD7736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268E95D426BE58A000BD7736 /* Krypton_Animation_TestingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268E95D526BE58A000BD7736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268E95DE26BE58A000BD7736 /* Krypton_Animation_TestingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268E95D126BE58A000BD7736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268E95B526BE589E00BD7736 /* Krypton-Animation-Testing */;
+			targetProxy = 268E95D026BE58A000BD7736 /* PBXContainerItemProxy */;
+		};
+		268E95DB26BE58A000BD7736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268E95B526BE589E00BD7736 /* Krypton-Animation-Testing */;
+			targetProxy = 268E95DA26BE58A000BD7736 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		268E95BF26BE589E00BD7736 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268E95C026BE589E00BD7736 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		268E95C726BE58A000BD7736 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268E95C826BE58A000BD7736 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		268E95DF26BE58A000BD7736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		268E95E026BE58A000BD7736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		268E95E226BE58A000BD7736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78JM7GH8BZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Krypton-Animation-Testing/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.iliya.Krypton-Animation-Testing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		268E95E326BE58A000BD7736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78JM7GH8BZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Krypton-Animation-Testing/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.iliya.Krypton-Animation-Testing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		268E95E526BE58A000BD7736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78JM7GH8BZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.iliya.Krypton-Animation-TestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Krypton-Animation-Testing.app/Krypton-Animation-Testing";
+			};
+			name = Debug;
+		};
+		268E95E626BE58A000BD7736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78JM7GH8BZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.iliya.Krypton-Animation-TestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Krypton-Animation-Testing.app/Krypton-Animation-Testing";
+			};
+			name = Release;
+		};
+		268E95E826BE58A000BD7736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78JM7GH8BZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.iliya.Krypton-Animation-TestingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Krypton-Animation-Testing";
+			};
+			name = Debug;
+		};
+		268E95E926BE58A000BD7736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78JM7GH8BZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.iliya.Krypton-Animation-TestingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Krypton-Animation-Testing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268E95B126BE589E00BD7736 /* Build configuration list for PBXProject "Krypton-Animation-Testing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268E95DF26BE58A000BD7736 /* Debug */,
+				268E95E026BE58A000BD7736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268E95E126BE58A000BD7736 /* Build configuration list for PBXNativeTarget "Krypton-Animation-Testing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268E95E226BE58A000BD7736 /* Debug */,
+				268E95E326BE58A000BD7736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268E95E426BE58A000BD7736 /* Build configuration list for PBXNativeTarget "Krypton-Animation-TestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268E95E526BE58A000BD7736 /* Debug */,
+				268E95E626BE58A000BD7736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268E95E726BE58A000BD7736 /* Build configuration list for PBXNativeTarget "Krypton-Animation-TestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268E95E826BE58A000BD7736 /* Debug */,
+				268E95E926BE58A000BD7736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		268E95C226BE589E00BD7736 /* Krypton_Animation_Testing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				268E95C326BE589E00BD7736 /* Krypton_Animation_Testing.xcdatamodel */,
+			);
+			currentVersion = 268E95C326BE589E00BD7736 /* Krypton_Animation_Testing.xcdatamodel */;
+			path = Krypton_Animation_Testing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 268E95AE26BE589E00BD7736 /* Project object */;
+}
