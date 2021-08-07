@@ -49,7 +49,7 @@ class ViewController: UIViewController {
 		if direction == "toRight" {
 			UIView.animate(withDuration: 1,
 				delay: 0,
-				options: options,
+				options: .curveEaseOut,
 				animations: { [weak self] in
 					self?.leftBlueView.frame.origin.x = 135
 					self?.leftBlueView.frame.origin.y = 356
@@ -67,26 +67,26 @@ class ViewController: UIViewController {
 					self?.rightBlueView.frame.size.width = 130
 				
 				
-					self?.leftWhiteView.frame.origin.x = 135
-					self?.leftWhiteView.frame.origin.y = 356
-					self?.leftWhiteView.frame.size.height = 186
-					self?.leftWhiteView.frame.size.width = 144
+					self?.leftWhiteView.frame.origin.x = 8
+					self?.leftWhiteView.frame.origin.y = 8
+					self?.leftWhiteView.frame.size.height = 170
+					self?.leftWhiteView.frame.size.width = 128
 
-					self?.centerWhiteView.frame.origin.x = 271
-					self?.centerWhiteView.frame.origin.y = 375
-					self?.centerWhiteView.frame.size.height = 148
-					self?.centerWhiteView.frame.size.width = 130
+					self?.centerWhiteView.frame.origin.x = 2
+					self?.centerWhiteView.frame.origin.y = 2
+					self?.centerWhiteView.frame.size.height = 126
+					self?.centerWhiteView.frame.size.width = 144
 				
-					self?.rightWhiteView.frame.origin.x = 14
-					self?.rightWhiteView.frame.origin.y = 375
-					self?.rightWhiteView.frame.size.height = 148
-					self?.rightWhiteView.frame.size.width = 130
+					self?.rightWhiteView.frame.origin.x = 2
+					self?.rightWhiteView.frame.origin.y = 2
+					self?.rightWhiteView.frame.size.height = 144
+					self?.rightWhiteView.frame.size.width = 128
 				
 			})
 		} else {
 			UIView.animate(withDuration: 1,
 				delay: 0,
-				options: options,
+				options: .curveEaseOut,
 				animations: { [weak self] in
 					self?.rightBlueView.frame.origin.x = 135
 					self?.rightBlueView.frame.origin.y = 356
