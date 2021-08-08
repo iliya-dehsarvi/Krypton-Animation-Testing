@@ -74,13 +74,16 @@ class ViewController: UIViewController {
 
 					self?.centerWhiteView.frame.origin.x = 2
 					self?.centerWhiteView.frame.origin.y = 2
-					self?.centerWhiteView.frame.size.height = 126
-					self?.centerWhiteView.frame.size.width = 144
+					self?.centerWhiteView.frame.size.height = 144
+					self?.centerWhiteView.frame.size.width = 126
 				
 					self?.rightWhiteView.frame.origin.x = 2
 					self?.rightWhiteView.frame.origin.y = 2
 					self?.rightWhiteView.frame.size.height = 144
 					self?.rightWhiteView.frame.size.width = 128
+				
+					self?.view.bringSubviewToFront((self?.leftBlueView)!)
+
 				
 			})
 		} else {
@@ -102,9 +105,66 @@ class ViewController: UIViewController {
 					self?.centerBlueView.frame.origin.y = 375
 					self?.centerBlueView.frame.size.height = 148
 					self?.centerBlueView.frame.size.width = 130
+				
+				
+					self?.rightWhiteView.frame.origin.x = 8
+					self?.rightWhiteView.frame.origin.y = 8
+					self?.rightWhiteView.frame.size.height = 170
+					self?.rightWhiteView.frame.size.width = 128
+
+					self?.centerWhiteView.frame.origin.x = 2
+					self?.centerWhiteView.frame.origin.y = 2
+					self?.centerWhiteView.frame.size.height = 144
+					self?.centerWhiteView.frame.size.width = 128
+				
+					self?.leftWhiteView.frame.origin.x = 2
+					self?.leftWhiteView.frame.origin.y = 2
+					self?.leftWhiteView.frame.size.height = 144
+					self?.leftWhiteView.frame.size.width = 126
+				
+					self?.view.bringSubviewToFront((self?.rightBlueView)!)
 			})
 		}
 		
+	}
+	@IBAction func reset(_ sender: Any) {
+		UIView.animate(withDuration: 1,
+			delay: 0,
+			options: .curveEaseOut,
+			animations: { [weak self] in
+				self?.centerBlueView.frame.origin.x = 135
+				self?.centerBlueView.frame.origin.y = 356
+				self?.centerBlueView.frame.size.height = 186
+				self?.centerBlueView.frame.size.width = 144
+
+				self?.rightBlueView.frame.origin.x = 271
+				self?.rightBlueView.frame.origin.y = 375
+				self?.rightBlueView.frame.size.height = 148
+				self?.rightBlueView.frame.size.width = 130
+			
+				self?.leftBlueView.frame.origin.x = 14
+				self?.leftBlueView.frame.origin.y = 375
+				self?.leftBlueView.frame.size.height = 148
+				self?.leftBlueView.frame.size.width = 130
+			
+			
+				self?.centerWhiteView.frame.origin.x = 8
+				self?.centerWhiteView.frame.origin.y = 8
+				self?.centerWhiteView.frame.size.height = 170
+				self?.centerWhiteView.frame.size.width = 128
+
+				self?.leftWhiteView.frame.origin.x = 2
+				self?.leftWhiteView.frame.origin.y = 2
+				self?.leftWhiteView.frame.size.height = 144
+				self?.leftWhiteView.frame.size.width = 128
+			
+				self?.rightWhiteView.frame.origin.x = 2
+				self?.rightWhiteView.frame.origin.y = 2
+				self?.rightWhiteView.frame.size.height = 144
+				self?.rightWhiteView.frame.size.width = 126
+			
+				self?.view.bringSubviewToFront((self?.centerBlueView)!)
+		})
 	}
 }
 
