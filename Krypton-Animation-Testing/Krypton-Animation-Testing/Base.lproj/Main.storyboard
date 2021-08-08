@@ -127,7 +127,129 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
+            <point key="canvasLocation" x="216" y="145"/>
+        </scene>
+        <!--Subscription Options View Controller-->
+        <scene sceneID="Nic-B3-M2h">
+            <objects>
+                <viewController id="8ho-na-Kyh" customClass="SubscriptionOptionsViewController" customModule="Krypton_Animation_Testing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="imq-0b-ViT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="EWO-kl-pEI"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VCb-oQ-NSZ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982.60869565217399" y="150.66964285714286"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JuB-2c-U7U">
+            <objects>
+                <viewController id="sXy-IX-8JS" customClass="ViewController" customModule="Krypton_Animation_Testing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zEj-q5-c3v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CCz-mr-rPB">
+                                <rect key="frame" x="0.0" y="334" width="414" height="228"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RfO-06-l04">
+                                        <rect key="frame" x="271" y="40" width="130" height="148"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nq0-aE-QPl">
+                                                <rect key="frame" x="2" y="2" width="126" height="144"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wcf-yK-Sfn">
+                                                        <rect key="frame" x="38" y="54" width="50" height="36"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <imageReference key="image" image="arrowshape.turn.up.left" catalog="system"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="rightButton:" destination="sXy-IX-8JS" eventType="touchUpInside" id="ape-1B-E7U"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.31523004170000002" green="0.5572106242" blue="0.71374648809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jp3-WG-8XJ">
+                                        <rect key="frame" x="14" y="40" width="130" height="148"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MAR-4G-fAM">
+                                                <rect key="frame" x="2" y="2" width="128" height="144"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoX-Hg-Apt">
+                                                        <rect key="frame" x="39" y="54" width="50" height="36"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <imageReference key="image" image="arrowshape.turn.up.right" catalog="system"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="leftButton:" destination="sXy-IX-8JS" eventType="touchUpInside" id="07F-uF-YfX"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.31523004170000002" green="0.5572106242" blue="0.71374648809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MPO-LF-Qvj">
+                                        <rect key="frame" x="135" y="21" width="144" height="186"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Of-df-exn">
+                                                <rect key="frame" x="8" y="8" width="128" height="170"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBn-1P-ZgM">
+                                                        <rect key="frame" x="39" y="68" width="50" height="35"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <imageReference key="image" image="text.aligncenter" catalog="system"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="reset:" destination="sXy-IX-8JS" eventType="touchUpInside" id="gN7-Jh-3iL"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.31523004170000002" green="0.5572106242" blue="0.71374648809999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Sj3-TE-lNs"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="centerBlueView" destination="MPO-LF-Qvj" id="Oui-9s-Ku8"/>
+                        <outlet property="centerWhiteView" destination="4Of-df-exn" id="Ak3-Iu-7Iv"/>
+                        <outlet property="leftBlueView" destination="jp3-WG-8XJ" id="yme-0k-teW"/>
+                        <outlet property="leftWhiteView" destination="MAR-4G-fAM" id="iA1-uG-ZaG"/>
+                        <outlet property="rightBlueView" destination="RfO-06-l04" id="qyo-bU-ftu"/>
+                        <outlet property="rightWhiteView" destination="nq0-aE-QPl" id="Taj-cW-ohJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="khU-iY-u7A" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="983" y="825"/>
         </scene>
     </scenes>
     <resources>

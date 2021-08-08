@@ -21,17 +21,17 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		sampleUIView.isHidden = true
-		leftBlueView.layer.cornerRadius = 5
+		leftBlueView.layer.cornerRadius = 10
 		leftBlueView.layer.masksToBounds = true
-		centerBlueView.layer.cornerRadius = 5
+		centerBlueView.layer.cornerRadius = 10
 		centerBlueView.layer.masksToBounds = true
-		rightBlueView.layer.cornerRadius = 5
+		rightBlueView.layer.cornerRadius = 10
 		rightBlueView.layer.masksToBounds = true
-		leftWhiteView.layer.cornerRadius = 5
+		leftWhiteView.layer.cornerRadius = 10
 		leftWhiteView.layer.masksToBounds = true
-		centerWhiteView.layer.cornerRadius = 5
+		centerWhiteView.layer.cornerRadius = 10
 		centerWhiteView.layer.masksToBounds = true
-		rightWhiteView.layer.cornerRadius = 5
+		rightWhiteView.layer.cornerRadius = 10
 		rightWhiteView.layer.masksToBounds = true
 	}
 	
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
 		let options: UIView.AnimationOptions = [.curveEaseInOut, .repeat, .autoreverse]
 		
 		if direction == "toRight" {
-			UIView.animate(withDuration: 1,
+			UIView.animate(withDuration: 0.5,
 				delay: 0,
 				options: .curveEaseOut,
 				animations: { [weak self] in
@@ -87,7 +87,7 @@ class ViewController: UIViewController {
 				
 			})
 		} else {
-			UIView.animate(withDuration: 1,
+			UIView.animate(withDuration: 0.5,
 				delay: 0,
 				options: .curveEaseOut,
 				animations: { [weak self] in
@@ -128,7 +128,7 @@ class ViewController: UIViewController {
 		
 	}
 	@IBAction func reset(_ sender: Any) {
-		UIView.animate(withDuration: 1,
+		UIView.animate(withDuration: 0.5,
 			delay: 0,
 			options: .curveEaseOut,
 			animations: { [weak self] in

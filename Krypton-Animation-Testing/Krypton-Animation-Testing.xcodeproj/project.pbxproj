@@ -16,6 +16,7 @@
 		268E95C926BE58A000BD7736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268E95C726BE58A000BD7736 /* LaunchScreen.storyboard */; };
 		268E95D426BE58A000BD7736 /* Krypton_Animation_TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E95D326BE58A000BD7736 /* Krypton_Animation_TestingTests.swift */; };
 		268E95DE26BE58A000BD7736 /* Krypton_Animation_TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E95DD26BE58A000BD7736 /* Krypton_Animation_TestingUITests.swift */; };
+		268E95ED26C0686700BD7736 /* SubscriptionOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E95EC26C0686700BD7736 /* SubscriptionOptionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		268E95D326BE58A000BD7736 /* Krypton_Animation_TestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Krypton_Animation_TestingTests.swift; sourceTree = "<group>"; };
 		268E95D926BE58A000BD7736 /* Krypton-Animation-TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Krypton-Animation-TestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268E95DD26BE58A000BD7736 /* Krypton_Animation_TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Krypton_Animation_TestingUITests.swift; sourceTree = "<group>"; };
+		268E95EC26C0686700BD7736 /* SubscriptionOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionOptionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				268E95B926BE589E00BD7736 /* AppDelegate.swift */,
 				268E95BB26BE589E00BD7736 /* SceneDelegate.swift */,
 				268E95BD26BE589E00BD7736 /* ViewController.swift */,
+				268E95EC26C0686700BD7736 /* SubscriptionOptionsViewController.swift */,
 				268E95BF26BE589E00BD7736 /* Main.storyboard */,
 				268E95C526BE58A000BD7736 /* Assets.xcassets */,
 				268E95C726BE58A000BD7736 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				268E95BE26BE589E00BD7736 /* ViewController.swift in Sources */,
 				268E95C426BE589E00BD7736 /* Krypton_Animation_Testing.xcdatamodeld in Sources */,
+				268E95ED26C0686700BD7736 /* SubscriptionOptionsViewController.swift in Sources */,
 				268E95BA26BE589E00BD7736 /* AppDelegate.swift in Sources */,
 				268E95BC26BE589E00BD7736 /* SceneDelegate.swift in Sources */,
 			);
